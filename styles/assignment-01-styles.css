@@ -117,7 +117,7 @@ nav a {
 }
 
 .flower-1 {
-    width: 350px;
+    width: 340px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
@@ -127,7 +127,7 @@ nav a {
 }
 
 .flower-2 {
-    width: 350px;
+    width: 340px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
@@ -136,7 +136,7 @@ nav a {
 }
 
 .flower-3 {
-    width: 350px;
+    width: 340px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 300px 300px 0px 0px;
@@ -203,10 +203,10 @@ nav a {
     display: flex;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    padding: 60px 270px 60px 220px;
+    padding: 60px 230px 60px 180px;
     align-items: center;
     text-align: center;
-    gap: 100px;
+    gap: 120px;
     justify-content: space-around;
 }
 
@@ -243,8 +243,8 @@ nav a {
 }
 
 .instagram-image {
-    width: 260px;
-    height: 300px;
+    width: 240px;
+    height: 280px;
 }
 
 /* main section part 04 */
@@ -257,7 +257,6 @@ nav a {
     height: 360px;
     background-size: contain;
     padding: 60px 220px;
-
 }
 
 .subscription-title {
@@ -301,4 +300,32 @@ nav a {
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
+}
+
+/* footer section styles */
+
+.footer-section {
+    background-color: #111010;
+    text-align: center;
+    padding: 90px 400px;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 12px;
+    font-weight: 400;
 }
