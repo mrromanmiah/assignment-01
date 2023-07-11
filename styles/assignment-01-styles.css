@@ -34,7 +34,7 @@ body {
     text-align: center;
     font-size: 15px;
     font-weight: 400;
-    margin: 0px 320px;
+    margin: 0px 300px;
 }
 
 
@@ -233,4 +233,18 @@ nav a {
     width: 280px;
     height: 350px;
     flex-shrink: 0;
+}
+
+/* main section part 03 */
+
+.instagram-photos {
+    display: flex;
+    margin: 40px 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.insta-image {
+    width: 250px;
+    height: 300px;
 }
