@@ -21,6 +21,23 @@ body {
     font-weight: 700;
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 80px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0px 320px;
+}
+
+
 /* EXTRA: nav related styles */
 
 nav {
@@ -87,4 +104,95 @@ nav a {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+/* main section's styles */
+
+/*  main section part 01 */
+
+.featured-flowers {
+    display: flex;
+    margin: 5px 100px;
+    justify-content: space-between;
+}
+
+.flower-1 {
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    margin-top: 40px;
+
+}
+
+.flower-2 {
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    margin-top: 40px;
+}
+
+.flower-3 {
+    width: 350px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    margin-top: 40px;
+}
+
+#pink-tulip {
+    width: 230px;
+    height: 330px;
+    margin: 70px 45px;
+}
+
+#bouquets {
+    width: 270px;
+    height: 270px;
+    margin: 80px 30px 30px 50px;
+}
+
+#yellow-tulip {
+    width: 260px;
+    height: 360px;
+    margin: 40px 45px;
+}
+
+.flower-name>ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 230px 0px 185px;
+    color: #272727;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.flower-name li {
+    list-style: none;
+    text-decoration: underline;
+}
+
+/* main section part 02 (optional) */
+
+.facilities {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px;
+    height: 220px;
+    padding: 60px 90px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.facility-title{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
+    font-weight: 600;
 }
