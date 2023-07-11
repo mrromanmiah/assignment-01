@@ -247,6 +247,45 @@ nav a {
     height: 280px;
 }
 
+/* extra section styles */
+
+.packages {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 60px 230px 60px 180px;
+    align-items: center;
+    text-align: center;
+    gap: 120px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.package-pic {
+    width: 280px;
+    height: 350px;
+}
+
+.package-items {
+    max-width: 960px;
+}
+
+.package-title {
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.package-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+
 /* main section part 04 */
 
 .subscription {
